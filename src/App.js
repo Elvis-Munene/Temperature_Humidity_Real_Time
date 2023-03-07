@@ -1,24 +1,48 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import React, { useEffect, useState } from "react";
+import TempHumidDisp from "./components/TempHumidDisp";
+import { BsFillCloudSunFill } from 'react-icons/bs';
+import Charts from "./components/Charts";
+
 
 function App() {
+  const [temperature, setTemperature] = useState(0);
+  const [humidity, setHumidity] = useState(0);
+  const [thdata, setThdata] = useState();
+  
+  
+
+  useEffect(() => {
+    
+      fetch("http://localhost:3000/")
+      .then((response) => response.json())
+      .then((data) => {
+      
+        const limitedData = data.slice(data.length -1,data.length)
+        setThdata(limitedData)}
+        ) 
+      
+  },[])
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+    <div>
+      <div class='title'>
+      <h1> <BsFillCloudSunFill/> Temperature and Humidity Dashboard</h1>
+      </div>
+      {thdata && thdata.map((ln,index) =>{
+        return (
+      <TempHumidDisp  key={index} temperature={ln.temperature} humidity={ln.humidity} time={ln.lastUpdated} />
+      )
+      })
+      }
+      </div>
+      <div><Charts/></div>
+    
+   
+      </>
+      
   );
 }
 

@@ -1,0 +1,469 @@
+{
+	"data":[
+    {
+		"id" : 1,
+		"temperature" : 31,
+		"humidity" : 43.6
+	},
+	{
+		"id" : 2,
+		"temperature" : 31,
+		"humidity" : 43.6
+	},
+	{
+		"id" : 3,
+		"temperature" : 31,
+		"humidity" : 43.6
+	},
+	{
+		"id" : 4,
+		"temperature" : 31,
+		"humidity" : 43.6
+	},
+	{
+		"id" : 5,
+		"temperature" : 31,
+		"humidity" : 43.7
+	},
+	{
+		"id" : 6,
+		"temperature" : 31,
+		"humidity" : 43.7
+	},
+	{
+		"id" : 7,
+		"temperature" : 31,
+		"humidity" : 43.9
+	},
+	{
+		"id" : 8,
+		"temperature" : 31,
+		"humidity" : 43.9
+	},
+	{
+		"id" : 9,
+		"temperature" : 31,
+		"humidity" : 44
+	},
+	{
+		"id" : 10,
+		"temperature" : 31,
+		"humidity" : 44
+	},
+	{
+		"id" : 11,
+		"temperature" : 31,
+		"humidity" : 44
+	},
+	{
+		"id" : 12,
+		"temperature" : 31,
+		"humidity" : 44
+	},
+	{
+		"id" : 13,
+		"temperature" : 31,
+		"humidity" : 44
+	},
+	{
+		"id" : 14,
+		"temperature" : 31,
+		"humidity" : 44
+	},
+	{
+		"id" : 15,
+		"temperature" : 31,
+		"humidity" : 44
+	},
+	{
+		"id" : 16,
+		"temperature" : 31,
+		"humidity" : 44
+	},
+	{
+		"id" : 17,
+		"temperature" : 31,
+		"humidity" : 43.9
+	},
+	{
+		"id" : 18,
+		"temperature" : 31,
+		"humidity" : 43.9
+	},
+	{
+		"id" : 19,
+		"temperature" : 31,
+		"humidity" : 43.7
+	},
+	{
+		"id" : 20,
+		"temperature" : 31,
+		"humidity" : 43.7
+	},
+	{
+		"id" : 21,
+		"temperature" : 31,
+		"humidity" : 43.7
+	},
+	{
+		"id" : 22,
+		"temperature" : 31,
+		"humidity" : 43.7
+	},
+	{
+		"id" : 23,
+		"temperature" : 31,
+		"humidity" : 43.7
+	},
+	{
+		"id" : 24,
+		"temperature" : 31,
+		"humidity" : 43.7
+	},
+	{
+		"id" : 25,
+		"temperature" : 31,
+		"humidity" : 43.8
+	},
+	{
+		"id" : 26,
+		"temperature" : 31,
+		"humidity" : 43.3
+	},
+	{
+		"id" : 27,
+		"temperature" : 31,
+		"humidity" : 43.3
+	},
+	{
+		"id" : 28,
+		"temperature" : 31,
+		"humidity" : 43.8
+	},
+	{
+		"id" : 29,
+		"temperature" : 31,
+		"humidity" : 43.8
+	},
+	{
+		"id" : 30,
+		"temperature" : 31,
+		"humidity" : 43.9
+	},
+	{
+		"id" : 31,
+		"temperature" : 31,
+		"humidity" : 43.9
+	},
+	{
+		"id" : 32,
+		"temperature" : 31,
+		"humidity" : 43.9
+	},
+	{
+		"id" : 33,
+		"temperature" : 31,
+		"humidity" : 43.9
+	},
+	{
+		"id" : 34,
+		"temperature" : 31,
+		"humidity" : 43.9
+	},
+	{
+		"id" : 35,
+		"temperature" : 31,
+		"humidity" : 43.9
+	},
+	{
+		"id" : 36,
+		"temperature" : 31,
+		"humidity" : 43.8
+	},
+	{
+		"id" : 37,
+		"temperature" : 31,
+		"humidity" : 43.8
+	},
+	{
+		"id" : 38,
+		"temperature" : 31,
+		"humidity" : 43.5
+	},
+	{
+		"id" : 39,
+		"temperature" : 31,
+		"humidity" : 43.5
+	},
+	{
+		"id" : 40,
+		"temperature" : 31,
+		"humidity" : 43.3
+	},
+	{
+		"id" : 41,
+		"temperature" : 31,
+		"humidity" : 43.3
+	},
+	{
+		"id" : 42,
+		"temperature" : 31,
+		"humidity" : 43.2
+	},
+	{
+		"id" : 43,
+		"temperature" : 31,
+		"humidity" : 43.2
+	},
+	{
+		"id" : 44,
+		"temperature" : 31,
+		"humidity" : 43.2
+	},
+	{
+		"id" : 45,
+		"temperature" : 31,
+		"humidity" : 43.2
+	},
+	{
+		"id" : 46,
+		"temperature" : 31,
+		"humidity" : 43.1
+	},
+	{
+		"id" : 47,
+		"temperature" : 31,
+		"humidity" : 43.1
+	},
+	{
+		"id" : 48,
+		"temperature" : 31,
+		"humidity" : 42.9
+	},
+	{
+		"id" : 49,
+		"temperature" : 31,
+		"humidity" : 42.9
+	},
+	{
+		"id" : 50,
+		"temperature" : 31,
+		"humidity" : 42.8
+	},
+	{
+		"id" : 51,
+		"temperature" : 31,
+		"humidity" : 42.8
+	},
+	{
+		"id" : 52,
+		"temperature" : 31,
+		"humidity" : 42.9
+	},
+	{
+		"id" : 53,
+		"temperature" : 31,
+		"humidity" : 42.9
+	},
+	{
+		"id" : 54,
+		"temperature" : 31,
+		"humidity" : 42.9
+	},
+	{
+		"id" : 55,
+		"temperature" : 31,
+		"humidity" : 42.9
+	},
+	{
+		"id" : 56,
+		"temperature" : 31,
+		"humidity" : 43
+	},
+	{
+		"id" : 57,
+		"temperature" : 31,
+		"humidity" : 43
+	},
+	{
+		"id" : 58,
+		"temperature" : 31,
+		"humidity" : 43
+	},
+	{
+		"id" : 59,
+		"temperature" : 31,
+		"humidity" : 43
+	},
+	{
+		"id" : 60,
+		"temperature" : 31,
+		"humidity" : 43
+	},
+	{
+		"id" : 61,
+		"temperature" : 31,
+		"humidity" : 43
+	},
+	{
+		"id" : 62,
+		"temperature" : 31,
+		"humidity" : 43
+	},
+	{
+		"id" : 63,
+		"temperature" : 31,
+		"humidity" : 43
+	},
+	{
+		"id" : 64,
+		"temperature" : 31,
+		"humidity" : 43.1
+	},
+	{
+		"id" : 65,
+		"temperature" : 31,
+		"humidity" : 43.1
+	},
+	{
+		"id" : 66,
+		"temperature" : 31,
+		"humidity" : 43.1
+	},
+	{
+		"id" : 67,
+		"temperature" : 31,
+		"humidity" : 43.1
+	},
+	{
+		"id" : 68,
+		"temperature" : 31,
+		"humidity" : 43.2
+	},
+	{
+		"id" : 69,
+		"temperature" : 31,
+		"humidity" : 43.2
+	},
+	{
+		"id" : 70,
+		"temperature" : 31,
+		"humidity" : 43.2
+	},
+	{
+		"id" : 71,
+		"temperature" : 31,
+		"humidity" : 43.2
+	},
+	{
+		"id" : 72,
+		"temperature" : 31.1,
+		"humidity" : 43.3
+	},
+	{
+		"id" : 73,
+		"temperature" : 31.1,
+		"humidity" : 43.3
+	},
+	{
+		"id" : 74,
+		"temperature" : 31,
+		"humidity" : 43.3
+	},
+	{
+		"id" : 75,
+		"temperature" : 31,
+		"humidity" : 43.3
+	},
+	{
+		"id" : 76,
+		"temperature" : 31,
+		"humidity" : 43.3
+	},
+	{
+		"id" : 77,
+		"temperature" : 31,
+		"humidity" : 43.3
+	},
+	{
+		"id" : 78,
+		"temperature" : 31,
+		"humidity" : 43.3
+	},
+	{
+		"id" : 79,
+		"temperature" : 31,
+		"humidity" : 43.3
+	},
+	{
+		"id" : 80,
+		"temperature" : 31,
+		"humidity" : 43.2
+	},
+	{
+		"id" : 81,
+		"temperature" : 31,
+		"humidity" : 43.2
+	},
+	{
+		"id" : 82,
+		"temperature" : 31,
+		"humidity" : 43.2
+	},
+	{
+		"id" : 83,
+		"temperature" : 31,
+		"humidity" : 43.2
+	},
+	{
+		"id" : 84,
+		"temperature" : 31,
+		"humidity" : 43.2
+	},
+	{
+		"id" : 85,
+		"temperature" : 31,
+		"humidity" : 43.2
+	},
+	{
+		"id" : 86,
+		"temperature" : 31,
+		"humidity" : 43.3
+	},
+	{
+		"id" : 87,
+		"temperature" : 31,
+		"humidity" : 43.3
+	},
+	{
+		"id" : 88,
+		"temperature" : 31,
+		"humidity" : 43.3
+	},
+	{
+		"id" : 89,
+		"temperature" : 31,
+		"humidity" : 43.3
+	},
+	{
+		"id" : 90,
+		"temperature" : 31,
+		"humidity" : 43.3
+	},
+	{
+		"id" : 91,
+		"temperature" : 31,
+		"humidity" : 43.3
+	},
+	{
+		"id" : 92,
+		"temperature" : 31,
+		"humidity" : 43.3
+	},
+	{
+		"id" : 93,
+		"temperature" : 31,
+		"humidity" : 43.3
+	}
+]
+}

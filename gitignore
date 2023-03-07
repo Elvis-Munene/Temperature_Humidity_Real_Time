@@ -1,0 +1,4 @@
+poxy:/http://localhost:3000
+
+start json server: json-server --watch db.json
+
