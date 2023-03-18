@@ -2,7 +2,7 @@ import "./App.css";
 import React, { useEffect, useState } from "react";
 import TempHumidDisp from "./components/TempHumidDisp";
 import { BsFillCloudSunFill } from 'react-icons/bs';
-import Charts from "./components/Charts";
+
 
 
 function App() {
@@ -14,7 +14,7 @@ function App() {
 
   useEffect(() => {
     
-      fetch("http://localhost:3000/")
+      fetch("http://localhost:3000/")  
       .then((response) => response.json())
       .then((data) => {
       
@@ -38,7 +38,7 @@ function App() {
       })
       }
       </div>
-      <div><Charts/></div>
+      
     
    
       </>
