@@ -29,7 +29,7 @@ function App() {
 
   useEffect(() => {
     setInterval(() => { 
-      fetch("http://localhost:3000/")  
+      fetch("https://temp-humid-api.onrender.com/")  
       .then((response) => response.json())
       .then((data) => {
    
@@ -48,7 +48,7 @@ function App() {
 
   useEffect(() => {
     // setInterval(() => { 
-      fetch("http://localhost:3000/")  
+      fetch("https://temp-humid-api.onrender.com/")  
       .then((response) => response.json())
       .then((data) => {
         
