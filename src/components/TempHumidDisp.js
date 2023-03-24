@@ -8,7 +8,11 @@ import Moment from 'moment';
 
 
 function TempHumidDisp({ temperature, humidity, time }) {
-    console.log(temperature, humidity, time);
+
+
+
+
+
   return (
     <div class="temphumid">
       
@@ -17,7 +21,10 @@ function TempHumidDisp({ temperature, humidity, time }) {
         <Gradient dir="left-to-right" from="#00DFD8" to="#007CF0">Current Temperature:</Gradient> 
         <BsThermometerSun/><div class="output">
           <div className="count"><CountUp decimals={1} end={temperature}/>°C</div>
-          {Moment(time).format("MMMM do, yyyy H:mma")}
+          {Moment().utc(time).format("MMMM do, yyyy H:mma")}
+          {/* {Moment(date).format("MMMM do, yyyy H:mma")} */}
+          
+        
           </div>
       </h2>
 
@@ -30,14 +37,17 @@ function TempHumidDisp({ temperature, humidity, time }) {
       <Gradient dir="left-to-right" from="#00DFD8" to="#007CF0">Current Humidity:</Gradient>
        <WiHumidity/><div class="output">
        <div className="count"><CountUp decimals={1} end={humidity} />%</div>
-       {Moment(time).format("MMMM do, yyyy H:mma")}
+       {Moment().utc(time).format("MMMM do, yyyy H:mma")}
+       
     
     
         
         </div>
       </h2>
-      </div>
       
+    
+        </div>
+     
     </div>
   );
 }
