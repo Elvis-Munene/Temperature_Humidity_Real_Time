@@ -78,3 +78,18 @@ code {
 .charting_title{
   
 }
+
+.card{
+  width: 100rem;
+  padding-left: 18rem;
+  background-color: black;
+}
+@media only screen and (min-width: 600px) {
+  .chartBox{
+    width: 90%;
+    height: 45%;
+  }
+}
+.button_int{
+  padding-left: 22rem;
+}
