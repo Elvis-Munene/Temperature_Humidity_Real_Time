@@ -3,7 +3,7 @@ import { Chart } from "primereact/chart";
 import "primereact/resources/themes/lara-light-indigo/theme.css";
 import "primereact/resources/primereact.min.css";
 import "primeicons/primeicons.css";
-import "../index.css"
+import "./PrimeChart.css"
 
 
 export default function PrimeChart({myData}) {
@@ -71,20 +71,20 @@ export default function PrimeChart({myData}) {
         },
         scales: {
           x: {
-            ticks: {
-              color: textColorSecondary,
-            },
-            grid: {
-              color: surfaceBorder,
-            },
+            // ticks: {
+            //   color: textColorSecondary,
+            // },
+            // grid: {
+            //   color: surfaceBorder,
+            // },
           },
           y: {
             ticks: {
               color: textColorSecondary,
             },
-            grid: {
-              color: surfaceBorder,
-            },
+            // grid: {
+            //   color: surfaceBorder,
+            // },
           },
         },
       };

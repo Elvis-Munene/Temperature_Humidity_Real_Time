@@ -12,7 +12,7 @@ function App() {
   const [humidity, setHumidity] = useState(0);
   const [thdata, setThdata] = useState();
   const [unlimitedDataset, setUnlimitedDataset] = useState();
-  const [intervalCount, setintervalCount] = useState(5);
+  const [intervalCount, setintervalCount] = useState(10);
   // const [lastCount, setlastCount] = useState(0);
   
   

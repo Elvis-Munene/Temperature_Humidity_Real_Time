@@ -19,7 +19,7 @@ code {
 }
 .temphumid{
   display: flex;
-  height: 30vh;
+  height: 2%;
   text-align: center;
 }
 .temphumid h2{
@@ -52,7 +52,7 @@ code {
   color: yellow;
   text-align: center;
   padding-bottom: 5vh;
-  padding-top: 7vh;
+  
 }
 .output{
       /* ff 3.6+ */
@@ -75,21 +75,15 @@ code {
       height: 30vh;
 }
 
-.charting_title{
-  
-}
 
-.card{
-  width: 100rem;
-  padding-left: 18rem;
-  background-color: black;
-}
-@media only screen and (min-width: 600px) {
+
+
+/* @media only screen and (min-width: 600px) {
   .chartBox{
     width: 90%;
     height: 45%;
   }
-}
+} */
 .button_int{
   padding-left: 22rem;
 }

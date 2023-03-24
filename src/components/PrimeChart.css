@@ -1,0 +1,60 @@
+*{
+    color: white;
+}
+
+
+.card{
+    
+    /* padding-left: 18rem; */
+    background-color: black;
+    
+  }
+
+
+  @media (max-width: 500px){
+    *{
+        
+       
+
+    }
+    .card{
+        width: 90%;
+        height: 45%;
+        padding-left: 0;
+        
+    
+      }
+      .title h1{
+        color: yellow;
+        text-align: center;
+        padding-bottom: 1vh;
+        padding-top: 11vh;
+      }
+      .button_int{
+        padding-left: 5rem;
+      }
+  }
+
+  @media (min-width: 500px){
+    *{
+        
+       
+
+    }
+    .card{
+        
+        height: 15%;
+        padding-left: 0;
+        
+    
+      }
+      .title h1{
+        color: yellow;
+        text-align: center;
+        padding-bottom: 0.5vh;
+        padding-top: 4vh;
+      }
+      .button_int{
+        padding-left: 5rem;
+      }
+  }
