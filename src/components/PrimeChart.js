@@ -47,13 +47,13 @@ export default function PrimeChart({myData}) {
             fill: true,
             borderColor: documentStyle.getPropertyValue("--blue-500"),
             tension: 0.4,
-            borderColor: documentStyle.getPropertyValue('--teal-500')
+            // borderColor: documentStyle.getPropertyValue('--teal-500')
           },
           {
             label: "Humidity",
             data: humData,
             fill: false,
-            borderColor: documentStyle.getPropertyValue("--pink-500"),
+            borderColor: documentStyle.getPropertyValue("--cyan-50"),
             tension: 0.4,
             backgroundColor: 'rgba(255,167,38,0.2)'
           },

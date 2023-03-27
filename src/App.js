@@ -93,12 +93,14 @@ function App() {
       <div class='title'>
       <h1> <BsFillCloudSunFill/> Temperature and Humidity Dashboard</h1>
       </div>
+      <div className="report_readings">
       {thdata && thdata.map((ln,index) =>{
         return (
       <TempHumidDisp  key={index} temperature={ln.temperature} humidity={ln.humidity} time={ln.record_date} />
       )
       })
       }
+      </div>
       </div>
       <div class='title'>
       <h1>Temperature vs Humidity</h1>
@@ -112,8 +114,14 @@ function App() {
       <PrimeChart myData={unlimitedDataset}/>
       </div>
       </div>
-      <div class="button_int">
-     <button type="button" class="btn btn-danger" onClick={handleClick}>View the last 5 minute interval</button>
+      <div className="buttons_twice">
+      <div class="button_int_1">
+        <div><button type="button" class="btn btn-primary" onClick={handleClick}>View the last 5 minute interval</button></div>
+      </div> 
+     <div class="button_int_2">
+       
+        <div> <button type="button" class="btn btn-primary" onClick={handleClick}>Export to CSV</button></div>    
+     </div>
      </div>
     
    

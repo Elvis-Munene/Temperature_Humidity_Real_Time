@@ -1,7 +1,3 @@
-*{
-    color: white;
-}
-
 
 .card{
     
@@ -12,50 +8,245 @@
 
 
   @media (max-width: 500px){
-    .card{
+    *{
+      background-color: black;
+      color: white ;
+         
+       
+    }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
+    
+    code {
+      font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+    }
+    .temphumid{
+      display: flex;
+      justify-content: space-between;
+      
+    
+    }
+    .temphumid h2{
+      color: blue;  
+    }
+    .report_readings{
+      margin-left: -20rem;
+    }
+    
+    .count{
+          /* ff 3.6+ */
+          background:-moz-linear-gradient(90deg, rgba(0, 255, 235, 1) 0%, rgba(7, 58, 187, 1) 100%); 
+    
+          /* safari 5.1+,chrome 10+ */
+          background:-webkit-linear-gradient(90deg, rgba(0, 255, 235, 1) 0%, rgba(7, 58, 187, 1) 100%);
+      
+          /* opera 11.10+ */
+          background:-o-linear-gradient(90deg, rgba(0, 255, 235, 1) 0%, rgba(7, 58, 187, 1) 100%);
+      
+          /* ie 6-9 */
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#073ABB', endColorstr='#00FFEB', GradientType=0 );
+      
+          /* ie 10+ */
+          background:-ms-linear-gradient(90deg, rgba(0, 255, 235, 1) 0%, rgba(7, 58, 187, 1) 100%);
+      
+          /* global 94%+ browsers support */
+          background:linear-gradient(90deg, rgba(0, 255, 235, 1) 0%, rgba(7, 58, 187, 1) 100%);
+          padding: 10px;
+          margin: 20px;
+          
+          
+    }
+    .count_date{
+      font-weight: 2;
+      font-size: small;
+    }
+    
+    .title h1{
+      color: white;
+      
+      padding-bottom: 2vh;
+      
+    }
+    .output{
+          /* ff 3.6+ */
+          background:-moz-linear-gradient(90deg, rgba(0, 255, 235, 1) 0%, rgba(7, 58, 187, 1) 100%); 
+    
+          /* safari 5.1+,chrome 10+ */
+          background:-webkit-linear-gradient(90deg, rgba(0, 255, 235, 1) 0%, rgba(7, 58, 187, 1) 100%);
+      
+          /* opera 11.10+ */
+          background:-o-linear-gradient(90deg, rgba(0, 255, 235, 1) 0%, rgba(7, 58, 187, 1) 100%);
+      
+          /* ie 6-9 */
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#073ABB', endColorstr='#00FFEB', GradientType=0 );
+      
+          /* ie 10+ */
+          background:-ms-linear-gradient(90deg, rgba(0, 255, 235, 1) 0%, rgba(7, 58, 187, 1) 100%);
+      
+          /* global 94%+ browsers support */
+          background:linear-gradient(90deg, rgba(0, 255, 235, 1) 0%, rgba(7, 58, 187, 1) 100%);
+          /* height: 10vh;
+          width: fit-content;
+          align-items: center; */
+          
+          
+    }
+    
+    
+    
+    
+    /* @media only screen and (min-width: 600px) {
+      .chartBox{
         width: 90%;
         height: 45%;
-        padding-left: 0;
-        
+      }
+    } */
+    .buttons_twice {
+      display: flex;
+      justify-content: space-between;
+      padding-right: 7vh;
+      padding-left: 7vh;
+      
+    }
+    .button_int_1{
+      margin-right: 10vh;
+    }
     
-      }
-      .title h1{
-        color: yellow;
-        text-align: center;
-        padding-bottom: 1vh;
-        padding-top: 1vh;
-      }
-      .button_int{
-        padding-left: 5rem;
-      }
-      .output{
-        height: 17vh;
-      }
-      .count{
-        padding-top: 2vh;
-      }
+    .container-fluid{
+      padding:0rem;
+      margin: 0rem;
+    
+    }
+    .card{ 
+      margin-left: 15vh;
+      margin-right: 15vh;
+      margin-bottom: 2vh;
+    }
+
   }
 
-  @media (min-width: 500px){
-    *{
-        
-       
+  
 
+
+
+  @media (min-width: 1500px){
+    *{
+      background-color: black;
+      color: white ;
+         
+       
     }
-    .card{
-        
-        height: 15%;
-        padding-left: 0;
-        
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+    }
     
+    code {
+      font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+    }
+    .temphumid{
+      display: flex;
+      padding-left: 25rem;
+    }
+    .temphumid h2{
+      color: blue;
+      display: block;
+      
+      
+    }
+    
+    .count{
+          /* ff 3.6+ */
+          background:-moz-linear-gradient(90deg, rgba(0, 255, 235, 1) 0%, rgba(7, 58, 187, 1) 100%); 
+    
+          /* safari 5.1+,chrome 10+ */
+          background:-webkit-linear-gradient(90deg, rgba(0, 255, 235, 1) 0%, rgba(7, 58, 187, 1) 100%);
+      
+          /* opera 11.10+ */
+          background:-o-linear-gradient(90deg, rgba(0, 255, 235, 1) 0%, rgba(7, 58, 187, 1) 100%);
+      
+          /* ie 6-9 */
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#073ABB', endColorstr='#00FFEB', GradientType=0 );
+      
+          /* ie 10+ */
+          background:-ms-linear-gradient(90deg, rgba(0, 255, 235, 1) 0%, rgba(7, 58, 187, 1) 100%);
+      
+          /* global 94%+ browsers support */
+          background:linear-gradient(90deg, rgba(0, 255, 235, 1) 0%, rgba(7, 58, 187, 1) 100%);
+          padding: 2rem;
+    }
+    .count_date{
+      font-weight: 10;
+      font-size: medium;
+    }
+    
+    .title h1{
+      color: white;
+      text-align: center;
+      padding-bottom: 5vh;
+      
+    }
+    .output{
+          /* ff 3.6+ */
+          background:-moz-linear-gradient(90deg, rgba(0, 255, 235, 1) 0%, rgba(7, 58, 187, 1) 100%); 
+    
+          /* safari 5.1+,chrome 10+ */
+          background:-webkit-linear-gradient(90deg, rgba(0, 255, 235, 1) 0%, rgba(7, 58, 187, 1) 100%);
+      
+          /* opera 11.10+ */
+          background:-o-linear-gradient(90deg, rgba(0, 255, 235, 1) 0%, rgba(7, 58, 187, 1) 100%);
+      
+          /* ie 6-9 */
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#073ABB', endColorstr='#00FFEB', GradientType=0 );
+      
+          /* ie 10+ */
+          background:-ms-linear-gradient(90deg, rgba(0, 255, 235, 1) 0%, rgba(7, 58, 187, 1) 100%);
+      
+          /* global 94%+ browsers support */
+          background:linear-gradient(90deg, rgba(0, 255, 235, 1) 0%, rgba(7, 58, 187, 1) 100%);
+          height: 10vh;
+          width: fit-content;
+          align-items: center;
+          
+          
+    }
+    
+    
+    
+    
+    /* @media only screen and (min-width: 600px) {
+      .chartBox{
+        width: 90%;
+        height: 45%;
       }
-      .title h1{
-        color: yellow;
-        text-align: center;
-        padding-bottom: 0.5vh;
-        padding-top: 4vh;
-      }
-      .button_int{
-        padding-left: 5rem;
-      }
+    } */
+    .buttons_twice {
+      display: flex;
+      justify-content: space-between;
+      padding-left: 25vh;
+      padding-right: 15vh;
+      
+    }
+    
+    .container-fluid{
+      padding-left: 8rem;
+    }
+    .card{ 
+      margin-left: 15vh;
+      margin-right: 15vh;
+      margin-bottom: 2vh;
+    }
+
   }

@@ -19,12 +19,12 @@ code {
 }
 .temphumid{
   display: flex;
-  height: 1%;
-  text-align: center;
+  padding-left: 25rem;
 }
 .temphumid h2{
   color: blue;
   display: block;
+  
   
 }
 
@@ -46,11 +46,15 @@ code {
   
       /* global 94%+ browsers support */
       background:linear-gradient(90deg, rgba(0, 255, 235, 1) 0%, rgba(7, 58, 187, 1) 100%);
-      padding-top: 1vh;
+      padding: 2rem;
+}
+.count_date{
+  font-weight: 10;
+  font-size: medium;
 }
 
 .title h1{
-  color: yellow;
+  color: white;
   text-align: center;
   padding-bottom: 5vh;
   
@@ -74,6 +78,9 @@ code {
       /* global 94%+ browsers support */
       background:linear-gradient(90deg, rgba(0, 255, 235, 1) 0%, rgba(7, 58, 187, 1) 100%);
       height: 10vh;
+      width: fit-content;
+      align-items: center;
+      
       
 }
 
@@ -86,6 +93,19 @@ code {
     height: 45%;
   }
 } */
-.button_int{
-  padding-left: 22rem;
+.buttons_twice {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 25vh;
+  padding-right: 15vh;
+  
+}
+
+.container-fluid{
+  padding-left: 8rem;
+}
+.card{ 
+  margin-left: 15vh;
+  margin-right: 15vh;
+  margin-bottom: 2vh;
 }

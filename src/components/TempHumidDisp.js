@@ -21,8 +21,8 @@ function TempHumidDisp({ temperature, humidity, time }) {
         <Gradient dir="left-to-right" from="#00DFD8" to="#007CF0">Current Temperature:</Gradient> 
         <BsThermometerSun/><div class="output">
           <div className="count"><CountUp decimals={1} end={temperature} />°C</div>
-          {Moment().utc(time).format("MMMM do, yyyy H:mma")}
-          {/* {Moment(date).format("MMMM do, yyyy H:mma")} */}
+          <div className="count_date">{Moment().utc(time).format("MMMM do, yyyy H:mma")}</div>
+        
           
         
           </div>
@@ -37,7 +37,7 @@ function TempHumidDisp({ temperature, humidity, time }) {
       <Gradient dir="left-to-right" from="#00DFD8" to="#007CF0">Current Humidity:</Gradient>
        <WiHumidity/><div class="output">
        <div className="count"><CountUp decimals={1} end={humidity} />%</div>
-       {Moment().utc(time).format("MMMM do, yyyy H:mma")}
+       <div className="count_date">{Moment().utc(time).format("MMMM do, yyyy H:mma")}</div>
        
     
     
