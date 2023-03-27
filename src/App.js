@@ -4,7 +4,7 @@ import TempHumidDisp from "./components/TempHumidDisp";
 import { BsFillCloudSunFill } from 'react-icons/bs';
 import PrimeChart from "./components/PrimeChart";
 import FileDownload from "js-file-download";
-
+import Axios from "axios";
 
 
 function App() {
@@ -87,11 +87,12 @@ function App() {
 
 const download = (e) => {
   e.preventDefault();
-  fetch({
+  Axios({
     url: "https://temp-humid-api.onrender.com/export",
     method: "GET",
     responseType:"blob"
   }).then((res)=>{
+    console.log(res);
     FileDownload(res.data, "sample_data.csv");
   })
 }
