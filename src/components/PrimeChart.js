@@ -36,7 +36,7 @@ export default function PrimeChart({myData}) {
       const textColorSecondary = documentStyle.getPropertyValue(
         "--text-color-secondary"
       );
-      const surfaceBorder = documentStyle.getPropertyValue("--surface-border");
+      // const surfaceBorder = documentStyle.getPropertyValue("--surface-border");
       const data = {
         labels: dateData,
         // labels: [1,2,3,4,5,6,7,8,9,10,11,12],

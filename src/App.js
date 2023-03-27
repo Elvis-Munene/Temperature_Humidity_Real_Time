@@ -3,13 +3,13 @@ import React, { useEffect, useState } from "react";
 import TempHumidDisp from "./components/TempHumidDisp";
 import { BsFillCloudSunFill } from 'react-icons/bs';
 import PrimeChart from "./components/PrimeChart";
-
+import FileDownload from "js-file-download";
 
 
 
 function App() {
-  const [temperature, setTemperature] = useState(0);
-  const [humidity, setHumidity] = useState(0);
+  // const [temperature, setTemperature] = useState(0);
+  // const [humidity, setHumidity] = useState(0);
   const [thdata, setThdata] = useState();
   const [unlimitedDataset, setUnlimitedDataset] = useState();
   const [intervalCount, setintervalCount] = useState(10);
@@ -85,7 +85,16 @@ function App() {
   //   };
   // }, []);
 
-
+const download = (e) => {
+  e.preventDefault();
+  fetch({
+    url: "https://temp-humid-api.onrender.com/export",
+    method: "GET",
+    responseType:"blob"
+  }).then((res)=>{
+    FileDownload(res.data, "sample_data.csv");
+  })
+}
 
   return (
     <>
@@ -120,7 +129,7 @@ function App() {
       </div> 
      <div class="button_int_2">
        
-        <div> <button type="button" class="btn btn-primary" onClick={handleClick}>Export to CSV</button></div>    
+        <div> <button type="button" class="btn btn-primary" onClick={(e)=>download(e)}>Export to CSV</button></div>    
      </div>
      </div>
     
