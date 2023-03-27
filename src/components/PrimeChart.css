@@ -31,6 +31,9 @@
       .output{
         height: 17vh;
       }
+      .count{
+        padding-top: 2vh;
+      }
   }
 
   @media (min-width: 500px){
