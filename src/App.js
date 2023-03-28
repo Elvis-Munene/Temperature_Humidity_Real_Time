@@ -41,7 +41,7 @@ function App() {
         // setUnlimitedData(plotData)
       }
         ) 
-      }, "1000");
+      }, "300000");
      
   },[])
 
