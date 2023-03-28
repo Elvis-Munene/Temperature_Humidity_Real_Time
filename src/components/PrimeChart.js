@@ -30,7 +30,7 @@ export default function PrimeChart({myData}) {
   // }, []);
 
   useEffect(() => {
-    // setInterval(() => {
+    setInterval(() => {
       const documentStyle = getComputedStyle(document.documentElement);
       const textColor = documentStyle.getPropertyValue("--text-color");
       const textColorSecondary = documentStyle.getPropertyValue(
@@ -91,7 +91,7 @@ export default function PrimeChart({myData}) {
 
       setChartData(data);
       setChartOptions(options);
-    // }, "1000");
+    }, "1000");
   }, [myData]);
 
   return (
