@@ -91,7 +91,7 @@ export default function PrimeChart({myData}) {
 
       setChartData(data);
       setChartOptions(options);
-    }, "300000");
+    }, "10000");
   }, [myData]);
 
   return (
